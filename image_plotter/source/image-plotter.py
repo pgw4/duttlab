@@ -15,8 +15,7 @@ def open():
     xx=x.tolist().count(x[0])
     zz=int(len(z)/xx)
     K=z.reshape(zz,xx).T
-    plt.imshow(K,origin='lower',cmap='gist_earth')
-
+    plt.imshow(K,origin='lower',cmap='gist_earth',extent=[min(x),max(x),min(y),max(y)], interpolation='nearest')
     plt.colorbar()
     plt.show()
 
@@ -25,21 +24,6 @@ btn.pack()
 ex = Button(root, text="Exit", command=root.quit)
 ex.pack()
 root.mainloop()
-
-
-# filename = askopenfilename()
-
-
-
-
-
-
-# plt.gca().set_xticks()
-# plt.gca().set_yticks(range(len(y)))
-# plt.gca().set_xticklabels(x)
-# plt.gca().set_yticklabels(y)
-
-
 
 # Equivalently, we could do that all in one line with:
 # x,y,z = np.genfromtxt('14-55-56.txt', delimiter='\t', usecols=(0,1,2))

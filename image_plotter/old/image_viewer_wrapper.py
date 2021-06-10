@@ -99,7 +99,7 @@ class MyApp(QtWidgets.QMainWindow):
         #     y.append(yy)
         #     z.append(zz)
 
-        self.filePath = "D:\\VSCode\\image_viewer-master\\source\\test.txt"
+        self.filePath = r"D:\Code\duttlab\image_plotter\old\test.txt"
         self.reset_plot()
         print((self.filePath))
         X, Y, Z = np.loadtxt(str(self.filePath), dtype=str, delimiter='\n')
