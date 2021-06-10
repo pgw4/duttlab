@@ -1,0 +1,4 @@
+2021-05-09 00:02:17,747 - threadlogger - INFO - Entering UploadThread
+2021-05-09 00:02:17,749 - threadlogger - INFO - Exiting UploadThread
+2021-05-09 00:02:17,750 - threadlogger - INFO - Entering ScanThread
+2021-05-09 00:02:17,751 - threadlogger - INFO - Exiting ScanThread

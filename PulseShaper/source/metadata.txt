@@ -1,0 +1,7 @@
+Sample Name: Harvard RIE E6
+NV Name: #1
+Waveguide: Silver Standard
+Waveguide Transport: 
+MW Power @ DUT: 10 dBm
+Microscope Objective: 
+ 

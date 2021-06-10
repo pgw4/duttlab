@@ -1,0 +1,8 @@
+2021-05-09 00:03:40,769 - seqlogger - INFO - Entering Sequence
+2021-05-09 00:03:40,770 - seqlogger - INFO - Exiting Sequence
+2021-05-09 00:03:40,770 - seqlogger.seq_class - INFO - AOM delay is found to be 0
+2021-05-09 00:03:40,771 - seqlogger.seq_class - INFO - MW delay is found to be 0
+2021-05-09 00:03:40,773 - seqlogger.seq_class - INFO - The pulse type is SquareI, number is 1, center is 1015
+2021-05-09 00:03:40,774 - seqlogger.seq_class - INFO - The pulse type is SquareI, number is 2, center is 1545
+2021-05-09 00:03:40,775 - seqlogger.seq_class - INFO - The marker start is 1560 stop is 4560 and type is Green
+2021-05-09 00:03:40,778 - seqlogger.seq_class - INFO - The marker start is 1560 stop is 1660 and type is Measure
