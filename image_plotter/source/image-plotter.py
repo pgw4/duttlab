@@ -14,7 +14,7 @@ def open():
 
     xx=x.tolist().count(x[0])
     zz=int(len(z)/xx)
-    K=z.reshape(zz,xx).T
+    K=z.reshape(zz,xx)
     plt.imshow(K,origin='lower',cmap='gist_earth',extent=[min(x),max(x),min(y),max(y)], interpolation='nearest')
     plt.colorbar()
     plt.show()
